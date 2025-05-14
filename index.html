@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Clock</title>
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/select.css">
+  <link rel="stylesheet" href="styles/information.css">
+</head>
+<body>
+  <div class="tree-container">
+    <p class="title">World Time Zone</p>
+    <div class="area-select">
+      <select name="continent" id="continent">
+        <option value="none">Select Continent</option>
+        <option value="Asia">Asia</option>
+        <option value="Africa">Africa</option>
+        <option value="America">America</option>
+        <option value="Europe">Europe</option>
+        <option value="Australia">Australia</option>
+      </select>
+      <select name="city" id="city">
+        <option value="none">Select City</option>
+        <!-- Create element here -->
+      </select>
+    </div>
+    <div class="calendar">
+      <p class="day-week">Tuesday</p>
+      <p class="date">April 3, 2025</p>
+      <p class="time">14:39</p>
+    </div>
+  </div>
+
+  <script src="scripts/zone-data.js"></script>
+  <script src="scripts/select-zone.js"></script>
+</body>
+</html>

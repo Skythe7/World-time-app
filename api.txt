@@ -1,0 +1,2 @@
+api:
+https://timeapi.io/api/time/current/zone?timeZone=Continent%2FCity
